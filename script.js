@@ -25,3 +25,20 @@
   "is " +divide + "<br>");
   document.write(" Modulus of " + num1  + " " +"and " + num2 + " " + 
     "is " + mode);
+
+// Question 3 
+
+ document.write( "<h1>" + "Question 3"  + "<br>" + "</h1>");
+
+ var increment
+ document.write("Value after variable declaration is " + increment + "<br>");
+ var intialize = 5;
+ document.write("Initialize value:" + intialize +"<br>");
+ var valueAfter = ++intialize;
+ document.write("Value after increment is " + valueAfter  + "<br>");
+ var addVar = valueAfter + 7;
+ document.write("Value after addition is " + addVar + "<br>"); 
+ var decrement = --addVar;
+ document.write("Decrement Value:" + decrement + "<br>"); 
+ var divideValue = decrement / 3;
+ document.write("The reminder is:" + divideValue); 
