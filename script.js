@@ -40,5 +40,5 @@
  document.write("Value after addition is " + addVar + "<br>"); 
  var decrement = --addVar;
  document.write("Decrement Value:" + decrement + "<br>"); 
- var divideValue = decrement / 3;
+ var divideValue = decrement % 3;
  document.write("The reminder is:" + divideValue); 
