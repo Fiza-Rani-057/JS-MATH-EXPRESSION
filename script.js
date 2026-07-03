@@ -59,28 +59,57 @@ document.write("<h1>" + "Question 5" + "<br>" + "</h1>");
 var table = "4";
 
 document.write("Table of 4" + "<br>");
-document.write(table + " x " + 1 + " = " + table*1 + "<br>");
-document.write(table + " x " + 2 + " = " + table*2 + "<br>");
-document.write(table + " x " + 3 + " = " + table*3 + "<br>");
-document.write(table + " x " + 4 + " = " + table*4 + "<br>");
-document.write(table + " x " + 5 + " = " + table*5 + "<br>");
-document.write(table + " x " + 6 + " = " + table*6 + "<br>");
-document.write(table + " x " + 7 + " = " + table*7 + "<br>");
-document.write(table + " x " + 8 + " = " + table*8 + "<br>");
-document.write(table + " x " + 9 + " = " + table*9 + "<br>");
-document.write(table + " x " + 10 + " = " + table*10 + "<br>");
+document.write(table + " x " + 1 + " = " + table * 1 + "<br>");
+document.write(table + " x " + 2 + " = " + table * 2 + "<br>");
+document.write(table + " x " + 3 + " = " + table * 3 + "<br>");
+document.write(table + " x " + 4 + " = " + table * 4 + "<br>");
+document.write(table + " x " + 5 + " = " + table * 5 + "<br>");
+document.write(table + " x " + 6 + " = " + table * 6 + "<br>");
+document.write(table + " x " + 7 + " = " + table * 7 + "<br>");
+document.write(table + " x " + 8 + " = " + table * 8 + "<br>");
+document.write(table + " x " + 9 + " = " + table * 9 + "<br>");
+document.write(table + " x " + 10 + " = " + table * 10 + "<br>");
 
 // Question 6 
 
- document.write("<h1>" + "Question 6" + "<br>" + "</h1>");
+document.write("<h1>" + "Question 6" + "<br>" + "</h1>");
 
- var celsius = 25;
- var fahrenheit = 70;
+var celsius = 25;
+var fahrenheit = 70;
 
- var calculateFahrenheit = (celsius * 9 / 5) + 32;
- var calculateCelsius = (fahrenheit - 32) * 5 / 9;
+var calculateFahrenheit = (celsius * 9 / 5) + 32;
+var calculateCelsius = (fahrenheit - 32) * 5 / 9;
+
+document.write(celsius + "°C is " + calculateFahrenheit + "<br>");
+document.write(fahrenheit + "°F is " + calculateCelsius);
+
+//  Question 7 
+
+document.write("<h1>" + "Question 7" + "<br>" + "</h1>");
+document.write("<h1>" + "Shopping Cart" + "<br>" + "</h1>");
+
+ var price1 = 650;
+ var quantity1 = 3;
+ var item1Charges = 650 * 3;
+
+ var price2 = 100;
+ var quantity2 = 7;
+ var item2Charges = 100 * 7;
+
+ var shippingCharges = 100;
+
+ totalCharges = item1Charges + item2Charges + shippingCharges;
+
+
+ document.write("Price of item 1 is " + price1 + "<br>");
+ document.write("Quantity of item 1 is" + quantity1 + "<br>");
+ document.write("Price of item 2 is " + price2 + "<br>");
+ document.write("Quantity of item 2 is" + quantity2 + "<br>");
+ document.write("Shipping Charges " + shippingCharges + "<br>");
+ document.write("Total cost of your order is " + totalCharges);
+
  
- document.write(celsius +"°C is " + calculateFahrenheit + "<br>");
- document.write( fahrenheit+ "°F is " + calculateCelsius);
+
+
 
 
