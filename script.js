@@ -108,7 +108,20 @@ document.write("<h1>" + "Shopping Cart" + "<br>" + "</h1>");
  document.write("Shipping Charges " + shippingCharges + "<br>");
  document.write("Total cost of your order is " + totalCharges);
 
- 
+//  Question 8 
+
+ document.write("<h1>" + "Question 8" + "<br>" + "</h1>");
+
+var total = 1100;
+var obtained = 800;
+var percentage = (obtained / total) *100;
+
+document.write("Tottal Marks " + total + "<br>");
+document.write("Obtained Marks " + obtained + "<br>");
+document.write("Percentage" + percentage + "<br>");
+
+
+
 
 
 
