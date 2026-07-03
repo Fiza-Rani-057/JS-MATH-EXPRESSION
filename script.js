@@ -121,6 +121,66 @@ document.write("Obtained Marks " + obtained + "<br>");
 document.write("Percentage" + percentage + "<br>");
 
 
+//  Question 9 
+
+
+ document.write("<h1>" + "Question 9" + "<br>" + "</h1>");
+
+ var totalPKR = (10 * 104) + (25 * 28);
+ document.write("Total PKR is:" + totalPKR);
+
+
+//  Question 10 
+
+  document.write("<h1>" + "Question 10" + "<br>" + "</h1>");
+
+ var number = 5;
+ var calculate = ((number + 5 )*10) /2;
+  document.write( " The total Value is " + calculate);
+
+//   Question 11 
+
+   document.write("<h1>" + "Question 11" + "<br>" + "</h1>");
+  document.write("<h1>" + "Age Calculator" + "<br>" + "</h1>");
+
+  var currentYear = 2026;
+  var birthYear = 2007;
+  var age = currentYear - birthYear;
+
+  document.write("Curent Year: " + currentYear + "<br>");
+  document.write("Birth Year: " + birthYear + "<br>");
+  document.write("Your age is:" + age );
+
+//   Question 12 
+
+
+ document.write("<h1>" + "Question 12" + "<br>" + "</h1>");
+ var radius = 20;
+ var circumference = 2 * Math.PI *radius;
+ var area = Math.PI *radius*radius;
+
+ document.write("The Radius is" + radius + "<br>");
+ document.write("The Circumference is: " + Math.round(circumference) + "<br>");
+ document.write("The Area is:" + Math.round( area));
+
+//  Question 13 
+
+  document.write("<h1>" + "Question 13" + "<br>" + "</h1>");
+
+  var favSnack = "Chocolate Chip";
+  var currentAGe = 15;
+  var MaximumAge = 65;
+  var amountOfSnacks = 3;
+
+  var totalNeeded = (MaximumAge - currentAGe)*365 * amountOfSnacks;
+
+  document.write("Farvorite Snack: " + favSnack + "<br>");
+  document.write("Current Age: " + currentAGe + "<br>");
+  document.write("Estimated Maximum Age: " + MaximumAge + "<br>");
+  document.write("Amount of snacks per day: " + amountOfSnacks + "<br>");
+  document.write("You will need: " + totalNeeded + 
+    " to last you until the ripe old age of " + MaximumAge);
+
 
 
 
