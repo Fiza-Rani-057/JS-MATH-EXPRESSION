@@ -70,3 +70,17 @@ document.write(table + " x " + 8 + " = " + table*8 + "<br>");
 document.write(table + " x " + 9 + " = " + table*9 + "<br>");
 document.write(table + " x " + 10 + " = " + table*10 + "<br>");
 
+// Question 6 
+
+ document.write("<h1>" + "Question 6" + "<br>" + "</h1>");
+
+ var celsius = 25;
+ var fahrenheit = 70;
+
+ var calculateFahrenheit = (celsius * 9 / 5) + 32;
+ var calculateCelsius = (fahrenheit - 32) * 5 / 9;
+ 
+ document.write(celsius +"°C is " + calculateFahrenheit + "<br>");
+ document.write( fahrenheit+ "°F is " + calculateCelsius);
+
+
